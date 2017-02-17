@@ -1,27 +1,28 @@
 //Your code below
 function buildPath(p,n){
   let path=[];
-  for(var m=0;m<p;m++){
-    return path;
-  }
-  if(m<=path){
-    return false;
-  }
-  else{
+  for(var r=0;r<path;r++){
+    if(r<=path.length){
+      return false;
+    }
+    else{
       return true;
+    }
+  }
+  return path;
+}
+
+function stroll(path,px){
+  if(this.px<=0){
+    return 0;
+  }
+  if(this.px>=1){
+    return 1;
   }
 }
 
-
-
-function stroll(path,){
-  if(){
-
-  }
-}
-
-function rsj(){
-
+function rsj(path,px){
+  if()
 }
 
 //Test code
